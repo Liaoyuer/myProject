@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  html {
+    font-size: 14px;
+  }
+  body {
+    font-family: "Microsoft Yahei";
+    line-height: 1.5;
+    color: #333;
+  }
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsla(0, 0%, 53%, 0.4);
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsla(0, 0%, 53%, 0.1);
+  }
+  ul,
+  ol,
+  li {
+    list-style: none;
+    -webkit-padding-start: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  /*  -- flex弹性布局 -- */
+  .flex {
+    display: flex;
+  }
+  .basis-xs {
+    flex-basis: 20%;
+  }
+  .basis-sm {
+    flex-basis: 40%;
+  }
+  .basis-df {
+    flex-basis: 50%;
+  }
+  .basis-lg {
+    flex-basis: 60%;
+  }
+  .basis-xl {
+    flex-basis: 80%;
+  }
+  .flex-width-45 {
+    width: 45%;
+  }
+  .flex-sub {
+    flex: 1;
+  }
+  .flex-twice {
+    flex: 2;
+  }
+  .flex-treble {
+    flex: 3;
+  }
+  .flex-direction {
+    flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .align-start {
+    align-items: flex-start;
+  }
+  .align-end {
+    align-items: flex-end;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .align-stretch {
+    align-items: stretch;
+  }
+  .self-start {
+    align-self: flex-start;
+  }
+  .self-center {
+    align-self: flex-center;
+  }
+  .self-end {
+    align-self: flex-end;
+  }
+  .self-stretch {
+    align-self: stretch;
+  }
+  .align-stretch {
+    align-items: stretch;
+  }
+  .align-baseline {
+    align-items: baseline;
+  }
+  .justify-start {
+    justify-content: flex-start;
+  }
+  .justify-end {
+    justify-content: flex-end;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-around {
+    justify-content: space-around;
+  }
+  .flex-31-start::after {
+    content: "";
+    width: 31%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+  }
+  .flex-3-start::after {
+    content: "";
+    width: 33.33%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+  }
+  .box-sizing {
+    box-sizing: border-box;
+  }
+  /* -- 浮动 --  */
+  .cf::after,
+  .cf::before {
+    content: " ";
+    display: table;
+  }
+  .cf::after {
+    clear: both;
+  }
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
+  // ---------------------
+  .font-24 {
+    font-size: 24px;
+  }
+  .color-blue {
+    color: rgba(61, 146, 255, 1);
+  }
+  .money {
+    font-size: 24px;
+    color: rgba(61, 146, 255, 1);
+  }
+  .head-money {
+    font-size: 16px;
+    color: rgba(51, 51, 51, 1);
+  }
+  .iconweixinzhifu {
+    font-size: 100px;
+    color: rgba(9, 187, 7, 1);
+    margin-right: 20px;
+  }
+  .iconzhifubao {
+    font-size: 24px;
+    margin-right: 20px;
+    color: rgba(2, 169, 241, 1);
+  }
+  .iconchenggong {
+    color: rgba(108, 197, 99, 1);
+  }
+  a {
+    color: rgba(51, 51, 51, 1);
+  }
+
+  
